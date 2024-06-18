@@ -36,7 +36,9 @@ input::-webkit-inner-spin-button {
 
 /* Firefox */
 input[type=number] {
-  -moz-appearance: textfield;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    appearance: none; /* Add this line to define a default value for appearance */
 }
   html{
     background: #101010;
@@ -225,14 +227,12 @@ body{
 }
 .header-image img{
     height: 100vh;
-    float: right;
 }
 .header-image{
     float: right;
     height: auto;
     background-size: cover;
     background-position: center;
-    width: 40%;   
     height: 100vh;
 
 }
@@ -692,7 +692,7 @@ body{
     align-items: center;
     justify-content: center;
     transition: all .4s ease;
-    width:95%;
+    width:100%;
     border-radius: 10px;
     background: #c70039;
 }
@@ -706,7 +706,7 @@ body{
     font-family: poppins;
     justify-content: center;
     transition: all .4s ease;
-    width:90%;
+    width:100%;
     border-radius: 10px;
     background: #c70039;
 }
@@ -719,7 +719,7 @@ body{
     align-items: center;
     justify-content: center;
     transition: all .4s ease;
-    width:83%;
+    width:100%;
     border-radius: 10px;
     background: #c70039;
 }
@@ -731,7 +731,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width:85%;
+    width:100%;
     border-radius: 10px;
     background: #c70039;
     transition: all .4s ease;
@@ -745,7 +745,7 @@ body{
     align-items: center;
     justify-content: center;
     transition: all .4s ease;
-    width:94%;
+    width:100%;
     border-radius: 10px;
     background: #c70039;
 }
@@ -757,7 +757,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width:84%;
+    width:100%;
     border-radius: 10px;
     transition: all .4s ease;
     background: #c70039;
